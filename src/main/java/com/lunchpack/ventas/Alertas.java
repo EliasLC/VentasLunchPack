@@ -61,7 +61,7 @@ public class Alertas{
                new CorteCaja().start();
                Stages.setToLogIn();
            } else {
-            //Acciones de cancel
+            //Acciones de cancelalv
             }
         }
        
