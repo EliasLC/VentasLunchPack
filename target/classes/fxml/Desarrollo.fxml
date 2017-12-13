@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-image:url(/Images/green.jpg);" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lunchpack.controllers.DesarrolloController">
+   <children>
+      <Label layoutX="122.0" layoutY="14.0" text="Iniciativa: " textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="260.0" layoutY="14.0" prefHeight="30.0" prefWidth="226.0" text="Ahorro Energetico" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="71.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                  <Image url="@/Images/ras.png" />
+               </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="340.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+                  <Image url="@/Images/gabinete.jpg" />
+               </image>
+      </ImageView>
+      <Label layoutX="284.0" layoutY="167.0" text="VS" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="spech" layoutX="26.0" layoutY="300.0" text="gb" textFill="#e4e4e4" />
+   </children>
+</AnchorPane>

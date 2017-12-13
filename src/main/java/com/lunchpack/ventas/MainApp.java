@@ -5,7 +5,6 @@ import static javafx.application.Application.launch;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
@@ -13,7 +12,7 @@ import javafx.stage.StageStyle;
 public class MainApp extends Application {
 
     public static Stage stage;
-    
+    //ALV
     @Override
     public void start(Stage s) throws Exception {
         stage=s; 
