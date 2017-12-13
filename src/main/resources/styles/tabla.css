@@ -1,0 +1,26 @@
+.table-column {
+  -fx-alignment: CENTER;
+}
+
+.table-row-cell {
+    -fx-background-color: #E0E0E0;
+}
+
+.table-cell {     
+    -fx-border-color: #d3d1d1;  
+    
+}
+
+.table-row-cell:odd {
+    -fx-background-color: white;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #007697;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+
+.table-view:row-selection .table-row-cell:filled:hover { 
+    -fx-background-color: #7f7f7f;
+}
