@@ -29,7 +29,8 @@ public class MainApp extends Application {
         
     }
 
-    //sigue
+   
+    //Este vato
     public static void main(String[] args) {
         launch(args);
     }
