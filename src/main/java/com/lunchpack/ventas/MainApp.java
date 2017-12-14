@@ -30,6 +30,7 @@ public class MainApp extends Application {
     }
 
     
+    //this was made by conflict branch 
     public static void main(String[] args) {
         launch(args);
     }
