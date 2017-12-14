@@ -28,9 +28,9 @@ public class MainApp extends Application {
         System.gc();
         
     }
-
     
-    //this shit was made by conflict branch 
+    
+//this shit was made by conflict branch. Este vato.    
     public static void main(String[] args) {
         launch(args);
     }
